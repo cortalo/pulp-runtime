@@ -27,6 +27,8 @@
 #include <archi/pulp.h>
 #include <hal/pulp.h>
 #include <data/data.h>
+#include <hwpe_buffer_auto.h>
+#include <hwpe_buffer_driver.h>
 
 typedef enum {
   PI_FREQ_DOMAIN_FC     = 0,

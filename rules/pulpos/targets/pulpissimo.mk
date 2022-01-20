@@ -53,6 +53,9 @@ PULP_SRCS     += kernel/fll-v$(fll/version).c
 PULP_SRCS     += kernel/freq-domains.c
 PULP_SRCS     += kernel/chips/pulpissimo/soc.c
 
+# hwpe_buffer_driver
+PULP_SRCS     += drivers/hwpe_buffer_driver.c
+
 
 include $(PULPRT_HOME)/rules/pulpos/configs/default.mk
 
